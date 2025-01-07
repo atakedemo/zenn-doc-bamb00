@@ -1,2 +1,5 @@
-# zenn-doc-bamb00
-Zennの記事管理のため作成
+
+  # My Awesome Project
+
+  This is a sample project to demonstrate how to upload markdown files using GitHub API.
+  
