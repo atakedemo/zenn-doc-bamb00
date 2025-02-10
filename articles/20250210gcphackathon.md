@@ -185,7 +185,7 @@ post_x(post_content)
 
 ### デモ動画
 
-![デモ動画](https://youtu.be/FrnXRmP77Ag)
+[![デモ動画](https://i.ytimg.com/vi/FrnXRmP77Ag/hqdefault.jpg?s…GUgZShlMA8=&rs=AOn4CLDuLbTPrqtkKOHQ293V-jDT36Ay_A)](https://youtu.be/FrnXRmP77Ag?si=en2Mca4lPXGwNGbA)
 
 ## 今回作れきれなかったもの
 
