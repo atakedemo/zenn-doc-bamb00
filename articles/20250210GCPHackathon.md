@@ -2,7 +2,7 @@
 title: "第ゼロ稿 ~AI Agent Hackathon with Google Cloud提出プロダクト~"
 emoji: "🛠"
 type: "tech" 
-topics: ["GCP","Vertex AI", ","Cloud Run", "Firebase"]
+topics: ["GCP","Vertex AI","Cloud Run", "Firebase"]
 published: true
 ---
 
