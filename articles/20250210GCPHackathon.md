@@ -1,7 +1,5 @@
 ---
 title: 第ゼロ稿 ~AI Agent Hackathon with Google Cloud提出プロダクト~
-
-"
 emoji: "🛠"
 type: "tech" 
 topics: [#Vertex AI, #Cloud Run, #Firebase]
