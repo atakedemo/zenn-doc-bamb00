@@ -46,16 +46,18 @@ DB（投稿設定） | Firebase | Cloud Firestore
 バックエンド処理③（投稿処理） | GCP | Cloud Functions
 推論・自然言語処理 | GCP | Vertex AI
 
-![アーキテクチャ図_raw](./architecture_00_raw.png)
+![アーキテクチャ図_raw](../asset/architecture_00_raw.jpg)
 
 ### AIエージェントが担う役割
+
+![アーキテクチャ図_AI利用部分](../asset/architecture_01_aiused.jpg)
 
 #### 1.ブログ記事の生成
 
 ブログの本文とサブタイトルをVerte AIで作成。
 本文作成のモデルは自分で分かりやすいと思っている方の文章を教師データとして、教師ありファインチューニングを行ったものを利用。
 
-[/dai0kou-backend/functions/generate_setting/lib/prompt.py](../dai0kou-backend/functions/generate_setting/lib/prompt.py)
+[/dai0kou-backend/functions/generate_setting/lib/prompt.py](https://github.com/atakedemo/dai0kou/blob/main/dai0kou-backend/functions/generate_setting/main.py)
 
 <details>
 
@@ -127,7 +129,7 @@ def generateContents(source, count, digest):
 
 シンプルにプロンプトを叩いて文章を作成
 
-[/dai0kou-backend/functions/post/main.py](../dai0kou-backend/functions/post/main.py)
+[/dai0kou-backend/functions/post/main.py]([../dai0kou-backend/functions/post/main.py](https://github.com/atakedemo/dai0kou/blob/main/dai0kou-backend/functions/post/main.py))
 
 <details>
 
